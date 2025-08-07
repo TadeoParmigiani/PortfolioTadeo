@@ -1,0 +1,22 @@
+.typingEffect {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  white-space: pre;
+  display: inline-block;
+  min-width: 0;
+  overflow: hidden;
+  vertical-align: bottom;
+  box-sizing: border-box;
+}
+.typingEffect::after {
+  content: '|';
+  animation: blink 1s step-start infinite;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

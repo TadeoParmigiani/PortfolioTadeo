@@ -1,0 +1,88 @@
+.footer {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  padding: 1rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLinks a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.socialLinks a:hover {
+  color: var(--text-primary);
+}
+
+.copyright {
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.copyright p {
+  margin: 0.2rem 0;
+  font-size: 0.8rem;
+}
+
+.madeWith {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.heart {
+  color: var(--accent-primary);
+  animation: heartbeat 2s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .socialLinks a {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+  }
+
+  .copyright p {
+    font-size: 0.7rem;
+  }
+}
