@@ -19,7 +19,7 @@ export const translations = {
       description: "Hola, soy Técnico Superior en Desarrollo de Software y estudio Ingeniería en Sistemas Informáticos. Me apasiona la tecnología y llevo tres años inmerso en el mundo de la programación.\n\nDisfruto tanto del desarrollo visual como de la lógica que lo sostiene. Soy curioso, dedicado y siempre busco aprender nuevas herramientas que me ayuden a crecer técnica y personalmente.\n\nMi objetivo es participar en proyectos que generen impacto, aportando soluciones creativas y eficientes a los desafíos que se presenten.",
       education: "Formación académica sólida en ingeniería de sistemas",
       passion: "Pasión por aprender nuevas tecnologías",
-      focus: "Enfoque en desarrollo backend y arquitectura de software",
+      focus: "Enfoque en desarrollo y arquitectura de software",
     },
     projects: {
       title: "Proyectos",

@@ -146,4 +146,17 @@
     width: 180px;
     height: 180px;
   }
+    .textContent {
+    text-align: left;
+  }
+  
+  .highlight {
+    justify-content: flex-start;
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem 0;
+  }
+
+  .highlight:last-child {
+    border-bottom: none;
+  }
 }
