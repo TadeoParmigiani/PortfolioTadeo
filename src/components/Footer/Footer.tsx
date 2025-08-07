@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-import { FiGithub, FiLinkedin, FiHeart } from "react-icons/fi"
+// import { FiGithub, FiLinkedin, FiHeart } from "react-icons/fi"
 import { useLanguage } from "../../contexts/LanguageContext"
 import styles from "./Footer.module.css"
 
