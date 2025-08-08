@@ -83,7 +83,7 @@ export const translations = {
       description: "Hello, i am a Senior Technician in Software Development and I am studying Computer Systems Engineering. I am passionate about technology and have been immersed in the world of programming for three years.\n\nI enjoy both the visual development and the underlying logic. I am curious, dedicated, and always seek to learn new tools that help me grow both technically and personally.\n\nMy goal is to participate in projects that make an impact, providing creative and efficient solutions to the challenges that arise.",
       education: "Solid academic background in systems engineering",
       passion: "Passion for learning new technologies",
-      focus: "Focus on backend development and software architecture",
+      focus: "Focus on development and software architecture",
     },
     projects: {
       title: "Projects",

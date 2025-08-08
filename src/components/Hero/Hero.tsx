@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
             <p className={styles.description}>{t("hero.subtitle")}</p>
             <div className={styles.buttons}>
               <a
-                href="./public/TadeoParmigianiCV.pdf"
+                href="/TadeoParmigianiCV.pdf"
                 download="TadeoParmigianiCV.pdf"
                 className={styles.primaryButton}
               >

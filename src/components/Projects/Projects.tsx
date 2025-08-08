@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
       description: t("projects.project2.description"),
       tech: t("projects.project2.tech"),
       github: "https://github.com/TadeoParmigiani/OrbitStock",
-      demo: "https://demo.com",
+      demo: "https://stockorbit.onrender.com",
     },
     {
       id: 3,
