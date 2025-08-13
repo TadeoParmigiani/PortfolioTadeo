@@ -31,7 +31,7 @@ export const translations = {
       },
       project2: {
         title: "StockOrbit",
-        description: "Plataforma inteligente para gestionar stock e inventario en tiempo real. Optimiza procesos y mejora el control de tu negocio.",
+        description: "Plataforma inteligente para gestionar stock e inventario en tiempo real. Optimiza procesos y mejora el control de tu negocio.(User: Admin - Password: Admin)",
         tech: "Html, Bootstrap, Python, Django, Mysql",
       },
       project3: {
@@ -95,7 +95,7 @@ export const translations = {
       },
       project2: {
         title: "StockOrbit",
-        description: "Smart platform to manage stock and inventory in real time. Optimize processes and gain better control of your business.",
+        description: "Smart platform to manage stock and inventory in real time. Optimize processes and gain better control of your business.(User: Admin - Password: Admin)",
         tech: "Html, Bootstrap, Python, Django, Mysql",
       },
       project3: {
