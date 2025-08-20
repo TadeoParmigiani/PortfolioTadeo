@@ -1,4 +1,4 @@
-import Experience from "../components/Experience/Experience";
+//import Experience from "../components/Experience/Experience";
 
 export const translations = {
   es: {
