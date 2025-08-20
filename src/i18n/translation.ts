@@ -1,3 +1,5 @@
+import Experience from "../components/Experience/Experience";
+
 export const translations = {
   es: {
     nav: {
@@ -8,7 +10,7 @@ export const translations = {
       experience: "Experiencia",
     },
     hero: {
-      title: "Ingeniero en Sistemas", // This is now the main title, not the location
+      title: "Ingeniero en Sistemas", 
       subtitle: "Apasionado por el desarrollo de software, con experiencia en bases de datos, diseño de sistemas escalables y eficientes.", // This is now the description
       downloadCV: "Descargar CV",
       viewProjects: "Ver Proyectos",
@@ -51,11 +53,20 @@ export const translations = {
     },
     experience: {
       title: "Experiencia",
-      role: "Desarrollador de software",
-      subtitle: "Sin experiencia",
+      experience1: {
+      role: "OrbitDev",
+      subtitle: "Desarrollador de software",
       date: "Actualidad",
       description:
-        "Desarrollo proyectos personales para fortalecer mis habilidades de desarrollador, enfocándome en la gestión de bases de datos y la aplicación de buenas prácticas para asegurar un código limpio y eficiente.",
+        "Emprendimiento personal orientado al desarrollo de software a medida para clientes, enfocado en fortalecer mis habilidades como desarrollador, con especial atención a la gestión de bases de datos y la aplicación de buenas prácticas para garantizar un código limpio y eficiente.",
+    },
+      experience2:{
+      role: "NiloSolutions",
+      subtitle: "Desarrollador Frontend",
+      date: "Actualidad",
+      description:
+        "Practica no remunerada en desarrollo frontend, participando en la creación de interfaces web interactivas y optimización de la experiencia del usuario.",
+    },
     },
     footer: {
       rights: "Todos los derechos reservados",
@@ -115,11 +126,21 @@ export const translations = {
     },
     experience: {
       title: "Experience",
-      role: "Software developer",
-      subtitle: "No experience",
+
+      experience1:{
+      role: "OrbitDev",
+      subtitle: "Software developer",
       date: "Present",
       description:
-        "Development of personal projects to strengthen developer skills. Focus on creating database management. Implementation of development best practices to ensure clean and efficient code.",
+        "Personal venture focused on developing custom software for clients, aimed at strengthening my skills as a developer, with special attention to database management and applying best practices to ensure clean and efficient code.",
+      },
+    experience2: {
+      role: "NiloSolutions",
+      subtitle: "Frontend Developer",
+      date: "Present",
+      description:
+        "Unpaid internship in frontend development, participating in the creation of interactive web interfaces and optimizing the user experience.",
+      }
     },
     footer: {
       rights: "All rights reserved",

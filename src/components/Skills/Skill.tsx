@@ -2,12 +2,13 @@
 
 import type React from "react"
 import {
-  // SiReact,
+  SiReact,
   SiJavascript,
-  // SiTypescript,
+  SiTypescript,
   SiHtml5,
   SiCss3,
-  // SiNodedotjs,
+  SiNodedotjs,
+  SiExpress,
   SiPython,
   SiDjango,
   // SiMongodb,
@@ -27,12 +28,13 @@ const Skills: React.FC = () => {
 
   const skills = [
     { name: "JavaScript", icon: <SiJavascript />, color: "#F7DF1E" },
-    { name: "Python", icon: <SiPython />, color: "#3776AB" },
-    // { name: "React", icon: <SiReact />, color: "#61DAFB" },
-    // { name: "TypeScript", icon: <SiTypescript />, color: "#3178C6" },
+    { name: "TypeScript", icon: <SiTypescript />, color: "#3178C6" },  
     { name: "HTML5", icon: <SiHtml5 />, color: "#E34F26" },
     { name: "CSS3", icon: <SiCss3 />, color: "#1572B6" },
-    // { name: "Node.js", icon: <SiNodedotjs />, color: "#339933" },
+    { name: "React", icon: <SiReact />, color: "#61DAFB" },
+    { name: "Node.js", icon: <SiNodedotjs />, color: "#339933" },
+    { name: "Express.js", icon: <SiExpress />, color: "#fdfdfdff" },
+     { name: "Python", icon: <SiPython />, color: "#3776AB" },
     { name: "Django", icon: <SiDjango />, color: "#092E20" },
     { name: "MySQL", icon: <SiMysql />, color: "#4479A1" },
     // { name: "PostgreSQL", icon: <SiPostgresql />, color: "#336791" },

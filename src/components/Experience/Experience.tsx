@@ -15,15 +15,30 @@ const Experience: React.FC = () => {
             <div className={styles.timelinePoint}></div>
             <div className={styles.timelineContent}>
               <div className={styles.timelineHeader}>
-                <h3 className={styles.role}>{t("experience.role")}</h3>
-                <span className={styles.date}>{t("experience.date")}</span>
+                <h3 className={styles.role}>{t("experience.experience1.role")}</h3>
+                <span className={styles.date}>{t("experience.experience1.date")}</span>
               </div>
-              <p className={styles.subtitle}>{t("experience.subtitle")}</p>
-              <p className={styles.description}>{t("experience.description")}</p>
+              <p className={styles.subtitle}>{t("experience.experience1.subtitle")}</p>
+              <p className={styles.description}>{t("experience.experience1.description")}</p>
+            </div>
+          </div>
+        
+
+        
+          
+            
+            <div className={styles.timelineContent}>
+              <div className={styles.timelineHeader}>
+                <h3 className={styles.role}>{t("experience.experience2.role")}</h3>
+                <span className={styles.date}>{t("experience.experience2.date")}</span>
+              </div>
+              <p className={styles.subtitle}>{t("experience.experience2.subtitle")}</p>
+              <p className={styles.description}>{t("experience.experience2.description")}</p>
             </div>
           </div>
         </div>
-      </div>
+      
+      
     </section>
   )
 }
