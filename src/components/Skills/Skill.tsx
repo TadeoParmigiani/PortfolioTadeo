@@ -34,7 +34,7 @@ const Skills: React.FC = () => {
     { name: "React", icon: <SiReact />, color: "#61DAFB" },
     { name: "Node.js", icon: <SiNodedotjs />, color: "#339933" },
     { name: "Express.js", icon: <SiExpress />, color: "#fdfdfdff" },
-     { name: "Python", icon: <SiPython />, color: "#3776AB" },
+    { name: "Python", icon: <SiPython />, color: "#3776AB" },
     { name: "Django", icon: <SiDjango />, color: "#092E20" },
     { name: "MySQL", icon: <SiMysql />, color: "#4479A1" },
     // { name: "PostgreSQL", icon: <SiPostgresql />, color: "#336791" },
