@@ -4,6 +4,7 @@ export const translations = {
   es: {
     nav: {
       home: "Inicio",
+      education: "Educación",
       about: "Sobre mí",
       projects: "Proyectos",
       skills: "Habilidades",
@@ -95,6 +96,7 @@ export const translations = {
   en: {
     nav: {
       home: "Home",
+      education: "Education",
       about: "About",
       projects: "Projects",
       skills: "Skills",
@@ -160,8 +162,8 @@ export const translations = {
         "Unpaid internship in frontend development, participating in the creation of interactive web interfaces and optimizing the user experience.",
       }
     },
-        education: {
-      title: "Academic Background",
+      education: {
+      title: "Academic Education",
       inProgress: "In Progress",
       completed: "Completed",
       location: "Rosario, Argentina",

@@ -29,10 +29,11 @@ const Navbar: React.FC = () => {
 
         <div className={`${styles.navLinks} ${isMenuOpen ? styles.active : ""}`}>
           <button onClick={() => scrollToSection("home")}>{t("nav.home")}</button>
-          <button onClick={() => scrollToSection("about")}>{t("nav.about")}</button>
+          <button onClick={() => scrollToSection("education")}>{t("nav.education")}</button>
           <button onClick={() => scrollToSection("projects")}>{t("nav.projects")}</button>
           <button onClick={() => scrollToSection("skills")}>{t("nav.skills")}</button>
           <button onClick={() => scrollToSection("experience")}>{t("nav.experience")}</button>
+          <button onClick={() => scrollToSection("about")}>{t("nav.about")}</button>
         </div>
 
         <div className={styles.controls}>
