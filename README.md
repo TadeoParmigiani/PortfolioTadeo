@@ -4,8 +4,81 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## PortfolioTadeo
+
+## Introducción
+Este proyecto es un portafolio personal desarrollado con React y TypeScript, utilizando Vite como herramienta de construcción. El objetivo es mostrar la experiencia, educación, habilidades y proyectos de Tadeo Parmigiani de manera profesional y moderna.
+
+## Dependencias principales
+Las dependencias utilizadas en este proyecto se encuentran en el archivo `package.json`. Algunas de las más relevantes son:
+
+- **React**: Biblioteca principal para la construcción de interfaces de usuario.
+- **TypeScript**: Superset de JavaScript que añade tipado estático.
+- **Vite**: Herramienta de desarrollo y bundler rápido para proyectos modernos.
+- **ESLint**: Linter para mantener la calidad y consistencia del código.
+
+Puedes ver todas las dependencias en el archivo `package.json`.
+
+## Estructura de carpetas
+La estructura principal del proyecto es la siguiente:
+
+```
+PortfolioTadeo/
+│
+├── public/
+│   ├── FOTOCV.jpg
+│   ├── TadeoParmigianiCV.pdf
+│   ├── vite.svg
+│   └── projectImg/
+│       ├── image.png
+│       ├── orbitpage.png
+│       └── stockorbit.png
+│
+├── src/
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── vite-env.d.ts
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── About/
+│   │   ├── Education/
+│   │   ├── Experience/
+│   │   ├── Footer/
+│   │   ├── Hero/
+│   │   ├── Navbar/
+│   │   ├── Projects/
+│   │   ├── Skills/
+│   │   └── TypingEffect/
+│   │
+│   │   (Cada carpeta contiene sus archivos `.tsx` y `.module.css`)
+│   ├── contexts/
+│   │   ├── LanguageContext.tsx
+│   │   └── ThemeContext.tsx
+│   └── i18n/
+│       └── translation.ts
+│
+├── eslint.config.js
+├── index.html
+├── package.json
+├── README.md
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+```
+
+## Uso
+Para instalar las dependencias y ejecutar el proyecto:
+
+```bash
+npm install
+npm run dev
+```
+
 
 ## Expanding the ESLint configuration
 

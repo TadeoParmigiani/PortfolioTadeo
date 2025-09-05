@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects"
 import Skills from "./components/Skills/Skill"
 import Experience from "./components/Experience/Experience"
 import Footer from "./components/Footer/Footer"
+import Education from "./components/Education/Education"
 import "./App.css"
 
 function App() {
@@ -17,10 +18,12 @@ function App() {
           <Navbar />
           <main>
             <Hero />
-            <About />
+            <Education/>
+            
             <Projects />
             <Skills />
             <Experience />
+            <About />
           </main>
           <Footer />
         </div>

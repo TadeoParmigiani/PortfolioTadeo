@@ -68,6 +68,24 @@ export const translations = {
         "Practica no remunerada en desarrollo frontend, participando en la creación de interfaces web interactivas y optimización de la experiencia del usuario.",
     },
     },
+     education: {
+      title: "Formación Académica",
+      inProgress: "En curso",
+      completed: "Completado",
+      location: "Rosario, Argentina",
+      degree1: {
+        title: "Técnico Superior en Desarrollo de Software",
+        institution: 'Instituto Superior Particular Incorporado N° 4011 "Gral. Manuel Belgrano"',
+        period: "2022 - 2024",
+        status: "completed",
+      },
+      degree2: {
+        title: "Ingeniería en Sistemas Informáticos",
+        institution: "UAI - Universidad Abierta Interamericana",
+        period: "2025",
+        status: "inProgress",
+      },
+    },
     footer: {
       rights: "Todos los derechos reservados",
       madeWith: "Hecho con",
@@ -141,6 +159,24 @@ export const translations = {
       description:
         "Unpaid internship in frontend development, participating in the creation of interactive web interfaces and optimizing the user experience.",
       }
+    },
+        education: {
+      title: "Academic Background",
+      inProgress: "In Progress",
+      completed: "Completed",
+      location: "Rosario, Argentina",
+      degree1: {
+        title: "Higher Technician in Software Development",
+        institution: 'Instituto Superior Particular Incorporado N° 4011 "Gral. Manuel Belgrano"',
+        period: "2022 - 2024",
+        status: "completed",
+      },
+      degree2: {
+        title: "Systems Engineering",
+        institution: "UAI - Universidad Abierta Interamericana",
+        period: "2025",
+        status: "inProgress",
+      },
     },
     footer: {
       rights: "All rights reserved",
