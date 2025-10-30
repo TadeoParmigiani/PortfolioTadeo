@@ -42,6 +42,11 @@ export const translations = {
         description: "Página web institucional que impulsa la presencia digital de la empresa con una imagen clara y profesional.",
         tech: "React, Tailwind CSS, JavaScript, EmailJS",
       },
+      project4: {
+        title: "OIAT Taekwon-Do ITF",
+        description: "Pagina + sistema para Organización Internacional Asociaciones de Taekwon-Do ITF (En desarrollo...)",
+        tech: "TypeScript, React, Tailwind CSS, Node.js, Express, Mysql",
+      },
       viewCode: "Ver Código",
       liveDemo: "Demo en Vivo",
     },
@@ -83,8 +88,17 @@ export const translations = {
       degree2: {
         title: "Ingeniería en Sistemas Informáticos",
         institution: "UAI - Universidad Abierta Interamericana",
+        info: "Materias aprobadas: 25/51",
         period: "2025",
         status: "inProgress",
+      },
+    },
+    certifications: {
+      title: "Formaciones Y Certificaciones",
+      cert1: {
+        title: "Codo a Codo 4.0 – Full Stack Python",
+        issuer: "Gobierno de la Ciudad de Buenos Aires",
+        date: "2024",
       },
     },
     footer: {
@@ -134,6 +148,11 @@ export const translations = {
         description: "Institutional website that enhances the company’s digital presence with a clear and professional image.",
         tech: "React, Tailwind CSS, JavaScript, EmailJS",
       },
+      project4: {
+        title: "OIAT Taekwon-Do ITF",
+        description: "Website + system for International Organization of Taekwon-Do ITF Associations (In development...)",
+        tech: "TypeScript, React, Tailwind CSS, Node.js, Express, Mysql",
+      },
       viewCode: "View Code",
       liveDemo: "Live Demo",
     },
@@ -178,6 +197,14 @@ export const translations = {
         institution: "UAI - Universidad Abierta Interamericana",
         period: "2025",
         status: "inProgress",
+      },
+    },
+        certifications: {
+      title: "Trainings And Certifications",
+      cert1: {
+        title: "Codo a Codo 4.0 – Full Stack Python",
+        issuer: "Government of the City of Buenos Aires",
+        date: "2024",
       },
     },
     footer: {

@@ -35,6 +35,15 @@ const Projects: React.FC = () => {
       github: "https://github.com/TadeoParmigiani/Orbitpage",
       demo: "https://www.orbitdev.com.ar/",
     },
+        {
+      id: 4,
+      image: "/projectImg/oiat.png",
+      title: t("projects.project4.title"),
+      description: t("projects.project4.description"),
+      tech: t("projects.project4.tech"),
+      github: "",
+      demo: "",
+    },
   ]
 
   return (

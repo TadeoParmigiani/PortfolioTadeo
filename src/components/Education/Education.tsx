@@ -23,6 +23,7 @@ const Education: React.FC = () => {
       institution: t("education.degree2.institution"),
       period: t("education.degree2.period"),
       status: t("education.degree2.status"),
+      info: t("education.degree2.info"),
       location: t("education.location"),
     },
   ]
@@ -50,6 +51,7 @@ const Education: React.FC = () => {
                 <div className={styles.cardContent}>
                   <h3 className={styles.degreeTitle}>{edu.title}</h3>
                   <p className={styles.institution}>{edu.institution}</p>
+                  <p className={styles.info}>{edu.info}</p>
 
                   <div className={styles.metaRow}>
                     <div className={styles.metaItem}>

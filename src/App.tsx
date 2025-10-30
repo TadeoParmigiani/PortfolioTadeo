@@ -8,6 +8,7 @@ import Skills from "./components/Skills/Skill"
 import Experience from "./components/Experience/Experience"
 import Footer from "./components/Footer/Footer"
 import Education from "./components/Education/Education"
+import Certifications from "./components/Certifications/Certifications"
 import "./App.css"
 
 function App() {
@@ -18,11 +19,11 @@ function App() {
           <Navbar />
           <main>
             <Hero />
-            <Education/>
-            
+            <Education/>           
             <Projects />
             <Skills />
             <Experience />
+            <Certifications/> 
             <About />
           </main>
           <Footer />

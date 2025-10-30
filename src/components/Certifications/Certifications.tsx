@@ -1,0 +1,60 @@
+"use client"
+
+import type React from "react"
+import { FiExternalLink, FiAward } from "react-icons/fi"
+import { SiPython } from "react-icons/si"
+import { useLanguage } from "../../contexts/LanguageContext"
+import styles from "./Certifications.module.css"
+
+const Certifications: React.FC = () => {
+  const { t } = useLanguage()
+
+  const certifications = [
+    {
+      id: 1,
+      title: t("certifications.cert1.title"),
+      issuer: t("certifications.cert1.issuer"),
+      date: t("certifications.cert1.date"),
+      icon: <SiPython />,
+      color: "#1456a0ff",
+      url: "Diploma_CAC.pdf",
+    },
+    
+  ]
+
+  return (
+    <section id="certifications" className={styles.certifications}>
+      <div className={styles.container}>
+        <h2 className={styles.title}>{t("certifications.title")}</h2>
+
+        <div className={styles.certificationsGrid}>
+          {certifications.map((cert, index) => (
+            <div key={cert.id} className={styles.certCard} style={{ animationDelay: `${index * 0.1}s` }}>
+              <div className={styles.certIcon} style={{ color: cert.color }}>
+                {cert.icon}
+              </div>
+
+              <div className={styles.certContent}>
+                <h3 className={styles.certTitle}>{cert.title}</h3>
+                <div className={styles.certMeta}>
+                  <div className={styles.issuer}>
+                    <FiAward className={styles.issuerIcon} />
+                    <span>{cert.issuer}</span>
+                  </div>
+                  <div className={styles.certFooter}>
+                    <span className={styles.date}>{cert.date}</span>
+                    <a href={cert.url} target="_blank" rel="noopener noreferrer" className={styles.certButton}>
+                      <FiExternalLink />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default Certifications

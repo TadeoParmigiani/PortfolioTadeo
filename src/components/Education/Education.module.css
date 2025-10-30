@@ -116,7 +116,14 @@
 .institution {
   font-size: 0.9rem;
   color: var(--text-secondary);
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+.info {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
   margin-bottom: 1rem;
+  
   line-height: 1.4;
 }
 
