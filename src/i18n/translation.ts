@@ -8,6 +8,7 @@ export const translations = {
       about: "Sobre mí",
       projects: "Proyectos",
       skills: "Habilidades",
+      certificate: "Certificados",
       experience: "Experiencia",
     },
     hero: {
@@ -69,7 +70,7 @@ export const translations = {
       experience2:{
       role: "NiloSolutions",
       subtitle: "Desarrollador Frontend",
-      date: "Actualidad",
+      date: "Jun 2025 - Ago 2025",
       description:
         "Practica no remunerada en desarrollo frontend, participando en la creación de interfaces web interactivas y optimización de la experiencia del usuario.",
     },
@@ -114,6 +115,7 @@ export const translations = {
       about: "About",
       projects: "Projects",
       skills: "Skills",
+      certificate: "Certificates",
       experience: "Experience",
     },
     hero: {
@@ -199,7 +201,7 @@ export const translations = {
         status: "inProgress",
       },
     },
-        certifications: {
+      certifications: {
       title: "Trainings And Certifications",
       cert1: {
         title: "Codo a Codo 4.0 – Full Stack Python",

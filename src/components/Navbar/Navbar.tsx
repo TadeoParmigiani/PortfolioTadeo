@@ -33,6 +33,7 @@ const Navbar: React.FC = () => {
           <button onClick={() => scrollToSection("projects")}>{t("nav.projects")}</button>
           <button onClick={() => scrollToSection("skills")}>{t("nav.skills")}</button>
           <button onClick={() => scrollToSection("experience")}>{t("nav.experience")}</button>
+          <button onClick={() => scrollToSection("certifications")}>{t("nav.certificate")}</button>
           <button onClick={() => scrollToSection("about")}>{t("nav.about")}</button>
         </div>
 
