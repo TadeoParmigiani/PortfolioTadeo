@@ -34,7 +34,7 @@
 }
 
 .projectCard:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   box-shadow: 0 15px 40px var(--shadow);
 }
 
@@ -69,10 +69,6 @@
   opacity: 1;
 }
 
-.imageContainer:hover img {
-  transform: scale(1.05);
-}
-
 .links {
   display: flex;
   gap: 0.5rem;
@@ -97,7 +93,9 @@
 }
 
 .cardContent {
+    position: relative; /* Agrega esto */
   padding: 1.5rem;
+  padding-bottom: 1.5rem; 
 }
 
 .cardContent h3 {
@@ -112,6 +110,34 @@
   line-height: 1.6;
   margin-bottom: 1rem;
   font-size: 0.9rem;
+}
+.infoButton {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.infoButton:hover {
+  background: var(--bg-primary);
+  color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  transform: scale(1.1);
+}
+
+.infoButton svg {
+  font-size: 0.95rem;
 }
 
 .tech {
