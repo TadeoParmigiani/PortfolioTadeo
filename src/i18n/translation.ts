@@ -70,7 +70,7 @@ export const translations = {
       viewCode: "Ver Código",
       liveDemo: "Demo en Vivo",
       descriptionTitle: "Descripción",
-      featuresTitle: "Características Principales",
+      featuresTitle: "Desafíos Técnicos",
       challengesTitle: "Beneficios para la organización",
       technologiesTitle: "Tecnologías Utilizadas"
     },
@@ -200,7 +200,7 @@ export const translations = {
       viewCode: "View Code",
       liveDemo: "Live Demo",
       descriptionTitle: "Description",
-      featuresTitle: "Key Features",
+      featuresTitle: "Technical Challenges",
       challengesTitle: "Benefits for the Organization",
       technologiesTitle: "Technologies Used"
     },
