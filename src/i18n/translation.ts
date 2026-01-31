@@ -20,7 +20,7 @@ export const translations = {
     },
     about: {
       title: "Sobre mí",
-      description: "Hola, soy Técnico Superior en Desarrollo de Software y estudio Ingeniería en Sistemas Informáticos. Me apasiona la tecnología y llevo tres años inmerso en el mundo de la programación.\n\nDisfruto tanto del desarrollo visual como de la lógica que lo sostiene. Soy curioso, dedicado y siempre busco aprender nuevas herramientas que me ayuden a crecer técnica y personalmente.\n\nMi objetivo es participar en proyectos que generen impacto, aportando soluciones creativas y eficientes a los desafíos que se presenten.",
+      description: "Hola, soy Técnico Superior en Desarrollo de Software y estudio Ingeniería en Sistemas Informáticos. Me apasiona la tecnología y llevo tres años inmerso en el mundo de la programación.\n\nDisfruto tanto del desarrollo visual como de la lógica que lo sostiene. Soy curioso, dedicado y siempre busco aprender nuevas herramientas que me ayuden a crecer técnica y personalmente.\n\nMi objetivo es participar en proyectos que generen impacto, aportando soluciones creativas y eficientes a los desafíos que se presenten, enfocándome en redes, infraestructura, computación en la nube y administración de sistemas.",
       education: "Formación académica sólida en ingeniería de sistemas",
       passion: "Pasión por aprender nuevas tecnologías",
       focus: "Enfoque en desarrollo y arquitectura de software",
@@ -124,6 +124,11 @@ export const translations = {
         issuer: "Gobierno de la Ciudad de Buenos Aires",
         date: "2024",
       },
+      cert2: {
+        title: "AWS Cloud Practitioner Essentials",
+        issuer: "AWS Training & Certification",
+        date: "January 2026",
+      },
     },
     footer: {
       rights: "Todos los derechos reservados",
@@ -150,7 +155,7 @@ export const translations = {
     },
     about: {
       title: "About Me",
-      description: "Hello, i am a Senior Technician in Software Development and I am studying Computer Systems Engineering. I am passionate about technology and have been immersed in the world of programming for three years.\n\nI enjoy both the visual development and the underlying logic. I am curious, dedicated, and always seek to learn new tools that help me grow both technically and personally.\n\nMy goal is to participate in projects that make an impact, providing creative and efficient solutions to the challenges that arise.",
+      description: "Hello, i am a Senior Technician in Software Development and I am studying Computer Systems Engineering. I am passionate about technology and have been immersed in the world of programming for three years.\n\nI enjoy both the visual development and the underlying logic. I am curious, dedicated, and always seek to learn new tools that help me grow both technically and personally.\n\nMy goal is to participate in projects that generate impact, providing creative and efficient solutions to the challenges that arise, focusing on networks, infrastructure, cloud computing, and systems administration.",
       education: "Solid academic background in systems engineering",
       passion: "Passion for learning new technologies",
       focus: "Focus on development and software architecture",
@@ -253,6 +258,11 @@ export const translations = {
         title: "Codo a Codo 4.0 – Full Stack Python",
         issuer: "Government of the City of Buenos Aires",
         date: "2024",
+      },
+      cert2: {
+        title: "AWS Cloud Practitioner Essentials",
+        issuer: "AWS Training & Certification",
+        date: "January 2026",
       },
     },
     footer: {
