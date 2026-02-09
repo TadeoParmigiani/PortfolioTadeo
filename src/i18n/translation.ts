@@ -127,8 +127,13 @@ export const translations = {
       cert2: {
         title: "AWS Cloud Practitioner Essentials",
         issuer: "AWS Training & Certification",
-        date: "January 2026",
+        date: "Enero 2026",
       },
+      cert3: {
+        title: "HCIA-Datacom V1.0",
+        issuer: "Huawei ICT Academy",
+        date: "En curso",
+},
     },
     footer: {
       rights: "Todos los derechos reservados",
@@ -263,6 +268,11 @@ export const translations = {
         title: "AWS Cloud Practitioner Essentials",
         issuer: "AWS Training & Certification",
         date: "January 2026",
+      },
+      cert3: {
+        title: "HCIA-Datacom V1.0",
+        issuer: "Huawei ICT Academy",
+        date: "In progress",
       },
     },
     footer: {
