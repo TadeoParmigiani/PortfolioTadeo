@@ -67,12 +67,40 @@ export const translations = {
           "Identificación clara de miembros — listado estructurado con datos y categorías oficiales."
         ]
       },
+      project5: {
+        title: "B2-P Alquiler De Canchas De Fútbol",
+        description: "Plataforma web para gestionar canchas y reservas en tiempo real, donde administradores configuran horarios y precios, y jugadores reservan turnos disponibles fácilmente.",
+        tech: "React, Tailwind CSS, TypeScript, Node.js, Express, MongoDB",
+        fullDescription: "Este proyecto fue desarrollado en el marco de la materia Metodologías y Desarrollo Web con el objetivo de aplicar conceptos de análisis, diseño y desarrollo de aplicaciones web. Consiste en una plataforma para la gestión y reserva de canchas de fútbol que permite a los administradores organizar horarios, precios y disponibilidad desde un panel centralizado.",
+        fullDescription2:  "El sistema busca digitalizar y simplificar la administración de turnos, permitiendo gestionar canchas y visualizar reservas desde un único entorno, mejorando la organización general.",
+        fullDescription3:"Desde el lado del usuario, la aplicación ofrece una interfaz clara donde jugadores o equipos pueden consultar horarios disponibles y reservar en tiempo real mediante un formulario simple, evitando conflictos y confirmando cada turno al instante.",
+        features: [
+          "Autenticación y autorización — JWT integrado con Firebase Auth y middleware RBAC .",
+          "Validación y contratos de datos — Joi y DTOs para validar requests y garantizar integridad de la API.",
+          "Modelado no relacional — Mongoose para esquemas y manejo de relaciones entre documentos.",
+          "Comunicación cliente/servidor — Uso de axios, manejo de requests, interceptores para tokens.",
+          "Gestión de estado escalable — Redux Toolkit bajo el patrón FLUX, con slices y RTK Query para sincronizar datos de forma consistente."
+        ],
+        challenges: [
+          "Centralización operativa — Toda la gestión de canchas y turnos en un único sistema.",
+          "Optimización administrativa — Reducción de tareas manuales y tiempo de coordinación.",
+          "Disponibilidad en tiempo real — Visualización instantánea de horarios libres y ocupados.",
+          "Mayor confiabilidad — Menor margen de error humano en la asignación de reservas.",
+          "Mejor experiencia del usuario — Proceso de reserva simple, rápido y accesible desde cualquier dispositivo.",
+          "Escalabilidad — Posibilidad de agregar nuevas canchas, sedes o funcionalidades sin modificar la base del sistema."
+      ],
+      links: [
+        
+      ],
+     
+      },
       viewCode: "Ver Código",
       liveDemo: "Demo en Vivo",
       descriptionTitle: "Descripción",
       featuresTitle: "Desafíos Técnicos",
       challengesTitle: "Beneficios para la organización",
-      technologiesTitle: "Tecnologías Utilizadas"
+      technologiesTitle: "Tecnologías Utilizadas",
+      linksTitle: "Enlaces del Proyecto"
     },
     skills: {
       title: "Habilidades Técnicas",
@@ -207,12 +235,36 @@ export const translations = {
           "Clear member identification — structured listing with official data and categories."
         ]
       },
+        project5: { 
+        title: "B2-P Football Field Rental",
+        description: "Web platform to manage football field reservations in real time, where administrators configure schedules and prices, and players easily book available slots.",
+        tech: "React, Tailwind CSS, TypeScript, Node.js, Express, MongoDB",
+        fullDescription: "This project was developed within the framework of the Web Methodologies and Development course with the objective of applying concepts of analysis, design, and development of web applications. It consists of a platform for the management and reservation of football fields that allows administrators to organize schedules, prices, and availability from a centralized panel.",
+        fullDescription2: "The system seeks to digitize and simplify the administration of reservations, allowing the management of fields and visualization of bookings from a single environment, improving overall organization.",
+        fullDescription3: "From the user side, the application offers a clear interface where players or teams can check available schedules and book in real time through a simple form, avoiding conflicts and confirming each slot instantly.",
+        features: [
+          "Authentication and authorization — JWT integrated with Firebase Auth and RBAC middleware.",
+          "Data validation and contracts — Joi and DTOs to validate requests and ensure API integrity.",
+          "Non-relational modeling — Mongoose for schemas and handling relationships between documents.",
+          "Client/server communication — Using axios, request handling, interceptors for tokens.",
+          "Scalable state management — Redux Toolkit following the FLUX pattern, with slices and RTK Query to synchronize data consistently."
+        ],
+        challenges: [
+          "Operational centralization — All field and reservation management in a single system.",
+          "Administrative optimization — Reduction of manual tasks and coordination time.",
+          "Real-time availability — Instant visualization of free and occupied schedules.",
+          "Greater reliability — Lower margin of human error in reservation assignment.",
+          "Better user experience — Simple, fast booking process accessible from any device.",
+          "Scalability — Possibility to add new fields, locations, or features without modifying the core of the system."
+      ],
+        },
       viewCode: "View Code",
       liveDemo: "Live Demo",
       descriptionTitle: "Description",
       featuresTitle: "Technical Challenges",
       challengesTitle: "Benefits for the Organization",
-      technologiesTitle: "Technologies Used"
+      technologiesTitle: "Technologies Used",
+      linksTitle:"Project Links"
     },
     skills: {
       title: "Technical Skills",

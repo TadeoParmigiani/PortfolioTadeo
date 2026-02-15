@@ -13,13 +13,20 @@ const Projects: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const projects = [
     {
-      id: 1,
-      image: "/projectImg/image.png",
-      title: t("projects.project1.title"),
-      description: t("projects.project1.description"),
-      tech: t("projects.project1.tech"),
-      github: "https://github.com/TadeoParmigiani",
-      hasDetails: false,
+      id: 5,
+      image: "/projectImg/b2p.png",
+      title: t("projects.project5.title"),
+      description: t("projects.project5.description"),
+      tech: t("projects.project5.tech"),
+      github: "https://github.com/TadeoParmigiani/B2-P_Page",
+      demo: "https://b2-p-page.vercel.app/",
+      hasDetails: true,
+      fullDescription: t("projects.project5.fullDescription"),
+      fullDescription2: t("projects.project5.fullDescription2"),
+      fullDescription3: t("projects.project5.fullDescription3"),
+      features: t("projects.project5.features"),
+      challenges: t("projects.project5.challenges")
+      
     },
     {
       id: 2,
@@ -56,6 +63,15 @@ const Projects: React.FC = () => {
       fullDescription4: t("projects.project4.fullDescription4"),
       features: t("projects.project4.features"),
       challenges: t("projects.project4.challenges")
+    },
+    {
+      id: 1,
+      image: "/projectImg/image.png",
+      title: t("projects.project1.title"),
+      description: t("projects.project1.description"),
+      tech: t("projects.project1.tech"),
+      github: "https://github.com/TadeoParmigiani",
+      hasDetails: false,
     },
   ]
   const handleOpenModal = (project: any) => {

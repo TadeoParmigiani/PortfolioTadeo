@@ -18,6 +18,7 @@ interface ProjectModalProps {
     tech: string
     features?: string[]
     challenges?: string[]
+    links?: string[]
     image: string
   }
 }
@@ -78,6 +79,17 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, project })
               <ul className={styles.featureList}>
                 {project.challenges.map((challenge, index) => (
                   <li key={index}>{challenge}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {project.links && project.links.length > 0 && (
+            <div className={styles.modalSection}>
+              <h3>{t("projects.linksTitle")}</h3>
+              <ul className={styles.featureList}>
+                {project.links.map((link, index) => (
+                  <li key={index}>{link}</li>
                 ))}
               </ul>
             </div>
