@@ -18,7 +18,7 @@ interface ProjectModalProps {
     tech: string
     features?: string[]
     challenges?: string[]
-    links?: string[]
+    links?: { label: string; url: string }[]
     image: string
   }
 }
@@ -87,9 +87,17 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, project })
           {project.links && project.links.length > 0 && (
             <div className={styles.modalSection}>
               <h3>{t("projects.linksTitle")}</h3>
-              <ul className={styles.featureList}>
+              <ul className={styles.linksList}>
                 {project.links.map((link, index) => (
-                  <li key={index}>{link}</li>
+                  <li key={index}>
+                    {link.url ? (
+                      <a href={link.url} target="_blank" rel="noopener noreferrer">
+                        {link.label}
+                      </a>
+                    ) : (
+                      <span>{link.label}</span>
+                    )}
+                  </li>
                 ))}
               </ul>
             </div>

@@ -89,9 +89,16 @@ export const translations = {
           "Mejor experiencia del usuario — Proceso de reserva simple, rápido y accesible desde cualquier dispositivo.",
           "Escalabilidad — Posibilidad de agregar nuevas canchas, sedes o funcionalidades sin modificar la base del sistema."
       ],
-      links: [
-        
-      ],
+
+links: [
+  { label: "Frontend — Repo", url: "https://github.com/TadeoParmigiani/B2-P_Front" },
+  { label: "Backend — Live", url: "https://b2-p-back.onrender.com" },
+  { label: "Web — Repo", url: "https://github.com/TadeoParmigiani/B2-P_Page" },
+  { label: "Frontend — Live", url: "https://b2-p-front.vercel.app/" },
+  { label: "Backend — Repo", url: "https://github.com/TadeoParmigiani/B2-P_Back" },
+  { label: "Web — Live", url: "https://b2-p-page.vercel.app/" },
+],
+
      
       },
       viewCode: "Ver Código",

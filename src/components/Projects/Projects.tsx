@@ -25,8 +25,8 @@ const Projects: React.FC = () => {
       fullDescription2: t("projects.project5.fullDescription2"),
       fullDescription3: t("projects.project5.fullDescription3"),
       features: t("projects.project5.features"),
-      challenges: t("projects.project5.challenges")
-      
+      challenges: t("projects.project5.challenges"),
+      links: t("projects.project5.links")
     },
     {
       id: 2,
