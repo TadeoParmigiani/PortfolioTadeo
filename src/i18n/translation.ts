@@ -89,17 +89,14 @@ export const translations = {
           "Mejor experiencia del usuario — Proceso de reserva simple, rápido y accesible desde cualquier dispositivo.",
           "Escalabilidad — Posibilidad de agregar nuevas canchas, sedes o funcionalidades sin modificar la base del sistema."
       ],
-
-links: [
-  { label: "Frontend — Repo", url: "https://github.com/TadeoParmigiani/B2-P_Front" },
-  { label: "Backend — Live", url: "https://b2-p-back.onrender.com" },
-  { label: "Web — Repo", url: "https://github.com/TadeoParmigiani/B2-P_Page" },
-  { label: "Frontend — Live", url: "https://b2-p-front.vercel.app/" },
-  { label: "Backend — Repo", url: "https://github.com/TadeoParmigiani/B2-P_Back" },
-  { label: "Web — Live", url: "https://b2-p-page.vercel.app/" },
-],
-
-     
+        links: [
+          { label: "Frontend — Repo", url: "https://github.com/TadeoParmigiani/B2-P_Front" },
+          { label: "Backend — Live", url: "https://b2-p-back.onrender.com" },
+          { label: "Web — Repo", url: "https://github.com/TadeoParmigiani/B2-P_Page" },
+          { label: "Frontend — Live", url: "https://b2-p-front.vercel.app/" },
+          { label: "Backend — Repo", url: "https://github.com/TadeoParmigiani/B2-P_Back" },
+          { label: "Web — Live", url: "https://b2-p-page.vercel.app/" },
+        ],
       },
       viewCode: "Ver Código",
       liveDemo: "Demo en Vivo",
@@ -264,6 +261,14 @@ links: [
           "Better user experience — Simple, fast booking process accessible from any device.",
           "Scalability — Possibility to add new fields, locations, or features without modifying the core of the system."
       ],
+      links: [
+  { label: "Frontend — Repo", url: "https://github.com/TadeoParmigiani/B2-P_Front" },
+  { label: "Backend — Live", url: "https://b2-p-back.onrender.com" },
+  { label: "Web — Repo", url: "https://github.com/TadeoParmigiani/B2-P_Page" },
+  { label: "Frontend — Live", url: "https://b2-p-front.vercel.app/" },
+  { label: "Backend — Repo", url: "https://github.com/TadeoParmigiani/B2-P_Back" },
+  { label: "Web — Live", url: "https://b2-p-page.vercel.app/" },
+      ]
         },
       viewCode: "View Code",
       liveDemo: "Live Demo",
@@ -305,13 +310,14 @@ links: [
       location: "Rosario, Argentina",
       degree1: {
         title: "Higher Technician in Software Development",
-        institution: 'Instituto Superior Particular Incorporado N° 4011 "Gral. Manuel Belgrano"',
+        institution: 'Private Higher Education Institute N°. 4011 "General Manuel Belgrano"',
         period: "2022 - 2024",
         status: "completed",
       },
       degree2: {
         title: "Systems Engineering",
-        institution: "UAI - Universidad Abierta Interamericana",
+        institution: "UAI - Interamerican Open University",
+        info: "Subjects passed: 29/51",
         period: "2025",
         status: "inProgress",
       },
