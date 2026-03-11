@@ -1,8 +1,8 @@
 "use client"
 
 import type React from "react"
-import { FiExternalLink, FiAward } from "react-icons/fi"
-import { SiPython, SiHuawei } from "react-icons/si"
+import { FiExternalLink, FiAward, FiGlobe  } from "react-icons/fi"
+import { SiPython, SiCisco } from "react-icons/si"
 import { BiLogoAws } from "react-icons/bi"
 import { useLanguage } from "../../contexts/LanguageContext"
 import styles from "./Certifications.module.css"
@@ -12,15 +12,15 @@ const Certifications: React.FC = () => {
 
   const certifications = [
     {
-      id: 1,
-      title: t("certifications.cert1.title"),
-      issuer: t("certifications.cert1.issuer"),
-      date: t("certifications.cert1.date"),
-      icon: <SiPython />,
-      color: "#1456a0ff",
-      url: "Diploma_CAC.pdf",
+      id: 3,
+      title: t("certifications.cert3.title"),
+      issuer: t("certifications.cert3.issuer"),
+      date: t("certifications.cert3.date"),
+      icon: <SiCisco size={50} />,
+      color: "#4d95cf",
+      url: "#",
     },
-    {
+        {
       id: 2,
       title: t("certifications.cert2.title"),
       issuer: t("certifications.cert2.issuer"),
@@ -29,16 +29,25 @@ const Certifications: React.FC = () => {
       color: "#FF9900",
       url: "aws-cloud-practitioner.pdf",
     },
-    {
-      id: 3,
-      title: t("certifications.cert3.title"),
-      issuer: t("certifications.cert3.issuer"),
-      date: t("certifications.cert3.date"),
-      icon: <SiHuawei size={50} />,
-      color: "#ff3c00",
-      url: "#",
+        {
+      id: 4,
+      title: t("certifications.cert4.title"),
+      issuer: t("certifications.cert4.issuer"),
+      date: t("certifications.cert4.date"),
+      icon: <FiGlobe  size={50} />,
+      color: "#2557b4",
+      url: "https://www.instagram.com/eclanguagesolutions/?hl=es",
     },
-    
+
+    {
+      id: 1,
+      title: t("certifications.cert1.title"),
+      issuer: t("certifications.cert1.issuer"),
+      date: t("certifications.cert1.date"),
+      icon: <SiPython />,
+      color: "#1456a0ff",
+      url: "Diploma_CAC.pdf",
+    }
   ]
 
   return (

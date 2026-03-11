@@ -13,14 +13,14 @@ export const translations = {
     },
     hero: {
       title: "Ingeniero en Sistemas", 
-      subtitle: "Apasionado por el desarrollo de software, con experiencia en bases de datos, diseño de sistemas escalables y eficientes.", // This is now the description
+      subtitle: "Apasionado por el desarrollo de software y la infraestructura tecnológica, con sólidos conocimientos en bases de datos y diseño de sistemas eficientes y escalables.",
       downloadCV: "Descargar CV",
       viewProjects: "Ver Proyectos",
       typingSubtitle: "Estudiante de Ingeniería en Sistemas",
     },
     about: {
       title: "Sobre mí",
-      description: "Hola, soy Técnico Superior en Desarrollo de Software y estudio Ingeniería en Sistemas Informáticos. Me apasiona la tecnología y llevo tres años inmerso en el mundo de la programación.\n\nDisfruto tanto del desarrollo visual como de la lógica que lo sostiene. Soy curioso, dedicado y siempre busco aprender nuevas herramientas que me ayuden a crecer técnica y personalmente.\n\nMi objetivo es participar en proyectos que generen impacto, aportando soluciones creativas y eficientes a los desafíos que se presenten, enfocándome en redes, infraestructura, computación en la nube y administración de sistemas.",
+      description: "Soy Técnico Superior en Desarrollo de Software y actualmente estudio Ingeniería en Sistemas Informáticos. Me apasiona el desarrollo y la tecnología, y continúo formándome constantemente para fortalecer mis habilidades técnicas.\n\nDisfruto tanto del desarrollo visual como de la lógica que lo sostiene. Soy curioso, dedicado y siempre busco aprender nuevas herramientas que me ayuden a crecer técnica y personalmente.\n\nMi objetivo es participar en proyectos que generen impacto, aportando soluciones creativas y eficientes a los desafíos que se presenten, enfocándome en redes, infraestructura, computación en la nube y administración de sistemas.",
       education: "Formación académica sólida en ingeniería de sistemas",
       passion: "Pasión por aprender nuevas tecnologías",
       focus: "Enfoque en desarrollo y arquitectura de software",
@@ -162,11 +162,16 @@ export const translations = {
         date: "Enero 2026",
       },
       cert3: {
-        title: "HCIA-Datacom V1.0",
-        issuer: "Huawei ICT Academy",
+        title: "CCNA v7: Introduction to Networks",
+        issuer: "Fundación Proydesa",
         date: "En curso",
-},
+      },
+      cert4: {
+        title: "Instituto de Inglés",
+        issuer: "Lic. Erica Clark | EC Language Solutions",
+         date: "En curso",
     },
+},
     footer: {
       rights: "Todos los derechos reservados",
       madeWith: "Hecho con",
@@ -185,14 +190,14 @@ export const translations = {
     },
     hero: {
       title: "Systems Engineer",
-      subtitle: "Passionate about software development, with experience in databases and designing scalable and efficient systems.",
+      subtitle: "Passionate about software development and technological infrastructure, with solid knowledge in databases and design of efficient and scalable systems.",
       downloadCV: "Download CV",
       viewProjects: "View Projects",
       typingSubtitle: "Systems Engineering Student",
     },
     about: {
       title: "About Me",
-      description: "Hello, i am a Senior Technician in Software Development and I am studying Computer Systems Engineering. I am passionate about technology and have been immersed in the world of programming for three years.\n\nI enjoy both the visual development and the underlying logic. I am curious, dedicated, and always seek to learn new tools that help me grow both technically and personally.\n\nMy goal is to participate in projects that generate impact, providing creative and efficient solutions to the challenges that arise, focusing on networks, infrastructure, cloud computing, and systems administration.",
+      description: "I am a Higher Technician in Software Development and currently pursuing a degree in Information Systems Engineering. I am passionate about development and technology, and I continuously strive to strengthen my technical skills through ongoing learning.\n\nI enjoy both the visual development and the underlying logic. I am curious, dedicated, and always seek to learn new tools that help me grow both technically and personally.\n\nMy goal is to participate in projects that generate impact, providing creative and efficient solutions to the challenges that arise, focusing on networks, infrastructure, cloud computing, and systems administration.",
       education: "Solid academic background in systems engineering",
       passion: "Passion for learning new technologies",
       focus: "Focus on development and software architecture",
@@ -335,10 +340,15 @@ export const translations = {
         date: "January 2026",
       },
       cert3: {
-        title: "HCIA-Datacom V1.0",
-        issuer: "Huawei ICT Academy",
+        title: "CCNA v7: Introduction to Networks",
+        issuer: "Proydesa Foundation",
         date: "In progress",
       },
+      cert4: {
+        title: "English Language Course",
+        issuer: "Lic. Erica Clark | EC Language Solutions",
+         date: "In progress",
+      }
     },
     footer: {
       rights: "All rights reserved",
