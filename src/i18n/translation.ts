@@ -144,7 +144,7 @@ export const translations = {
       degree2: {
         title: "Ingeniería en Sistemas Informáticos",
         institution: "UAI - Universidad Abierta Interamericana",
-        info: "Materias aprobadas: 25/51",
+        info: "Materias aprobadas: 30/51",
         period: "2025",
         status: "inProgress",
       },
@@ -322,7 +322,7 @@ export const translations = {
       degree2: {
         title: "Systems Engineering",
         institution: "UAI - Interamerican Open University",
-        info: "Subjects passed: 29/51",
+        info: "Subjects passed: 30/51",
         period: "2025",
         status: "inProgress",
       },
